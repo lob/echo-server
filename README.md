@@ -6,6 +6,13 @@ events (SSE).
 The server is designed for testing HTTP proxies and clients. It echoes
 information about HTTP request headers and bodies back to the client.
 
+## Lob
+We leveraged this repository for our company Hackathon to create an opensource 
+websocket echo that developers were free to use since websocket.org was shutdown.
+
+You can read more about [the project](https://www.lob.com/blog/websocket-org-is-down-here-is-an-alternative) and echo.websocket.events
+
+
 ## Behavior
 
 - Any messages sent from a websocket client are echoed as a websocket message.
